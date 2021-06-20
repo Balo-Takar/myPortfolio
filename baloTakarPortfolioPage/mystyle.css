@@ -1,0 +1,337 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    border: 0px;
+}
+
+.greenh1{
+    text-shadow: 4px 8px 8px rgb(14, 15, 15);
+}
+/* styling the navigation Bar */
+.navBar{
+    position: fixed;
+    display: flex;
+    margin-left: 5vh;
+    margin-top: 1vh;
+    gap: 1.5vh;
+}
+
+.navLinks{
+    color: rgb(16, 204, 176);
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: 15px 10px 10px black;
+}
+
+/* styling the home page */
+#home{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom:rgb(16, 204, 176) 2px dotted;
+}
+
+.containerA{
+    height: 55vh; 
+    background-color: rgb(24,116,107);
+    margin-top: 30px;
+}
+
+.profilePic{
+    height: 35vh;
+    
+}
+
+.homeH1{
+    color: rgb(16, 204, 176);
+    margin-top: 30vh;
+    margin-left: 30px;
+    font-size: xx-large;
+    font-family: serif;
+}
+
+.homeP{
+    margin-left: 30px;
+    color: white;
+}
+
+.profilePicture{
+    height: 35vh;
+    width: 44.5vh;
+    box-shadow: -8px -3px 15px black;
+}
+
+/* styling the tech skills  page */
+
+.techSkills{
+    margin-left:30px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin-top:20vh;
+}
+
+.techSkills h1{
+    color:rgb(16, 204, 176);
+    font-size: 2.5rem;
+}
+
+.techSkill_lists{
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    margin-left: -30px;
+}
+
+.techSkill_lists-list{
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+/* styling the soft skills section */
+.personalSkills{
+    padding-top: 30vh;
+    height: 80vh;
+    background-color: rgb(24,116,107);
+}
+
+.friendsPics{
+    margin: 20px;
+    height: 30vh;
+}
+
+.galacticos{
+    height: 30vh;
+    width: 44.5vh;
+    box-shadow: -7px -3px 11px black;
+}
+
+.personalSkill_lists{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vh;
+    color: white;
+}
+
+.personalSkills h1{
+    color:rgb(16, 204, 176);
+    font-size: 2.5rem;
+    margin-left: 20px;
+}
+
+/* styling for the hobbies */
+.hobbies{
+    height: 80vh;
+    padding-top: 20vh;
+    margin-left: 20px;
+}
+
+.hobbies h1{
+    color:rgb(16, 204, 176);
+    font-size: 2.5rem;
+}
+
+.hobbiesLists-list{
+    margin-bottom: 20px;
+}
+
+.hobbyPic{
+    height: 35vh;
+    margin-top: 5vh;
+    margin-left: 30px;
+}
+
+.hobbyPicture{
+    height: 35vh;
+    width: 43vh;
+    box-shadow: -6px -6px 15px black;
+}
+
+/* styling for the ProjectA */
+.projectA{
+    margin-top: 1vh;
+    height: 70vh;
+    padding-top: 30vh;
+    background-color: rgb(24,116,107);
+}
+
+.projectA h1{
+    color:rgb(16, 204, 176);
+    font-size: 2.5rem;
+    margin-left: 20px;
+}
+
+.projectName{
+    text-align:center;
+    font-weight: bold;
+}
+
+.projectDate{
+    text-align: center;
+    font-weight: bold;
+}
+
+.linkSite{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.siteLinks{
+    margin-left: 20px;
+    color: orange;
+    text-decoration: underline;
+}
+
+.birajPic{
+    height: 31vh;
+    margin-top: 10vh;
+    margin-left: 20px;
+}
+
+.dharPic{
+    height: 31vh;
+    width: 46vh;
+    box-shadow: -6px -6px 15px black;
+}
+
+/* styling the project B */
+.projectB{
+    height: 80vh;
+    border-bottom: 2px dotted rgb(16, 204, 176);
+    padding: 30vh 0px 0px 20px;
+}
+
+.projectB h1{
+    color:rgb(16, 204, 176);
+    font-size: 2.5rem;
+    margin-left: 10px;
+}
+
+.takarPic{
+    height: 30vh;
+    margin-right: 20px;
+}
+
+.myPic{
+    height: 30vh;
+    width: 43.5vh;
+    box-shadow: -5px -6px 15px black;
+}
+
+/* styling for the education part of the achievement section */
+.education{
+    height: 100vh;
+    border-bottom: 2px dotted rgb(16, 204, 176);
+    background-color:rgb(24,116,107);
+}
+
+.education h1{
+    padding-top: 20vh;
+    font-size: 2.5rem;
+    color:rgb(16, 204, 176);
+    margin-left: 20px;
+}
+
+.education p{
+    padding-top: 5vh;
+    color: white;
+    margin-left: 20px;
+}
+
+.inCollegePic{
+    height: 30vh;
+    padding-top: 10vh;
+    margin: 30px;
+}
+
+.eduPics{
+    height: 30vh;
+    width: 41.5vh;
+    box-shadow: -5px -6px 15px black;
+}
+
+/* styling for the award part of the achievement section */
+.awards{
+    height: 80vh;
+    padding-top: 20vh;
+    border-bottom: 2px dotted rgb(16, 204, 176);
+}
+
+
+.awards h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color:rgb(16, 204, 176);
+}
+
+.awardLists{
+    display: flex;
+    justify-content: center;
+}
+
+.awardLists-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.awardName{
+    padding-bottom: 15vh;
+}
+
+.awardPicsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    height: 80vh;
+    margin-left: 4vh;
+}
+
+.awardPics{
+    width: 20vh;
+    height: 18vh;
+    border: 2px dotted rgb(16, 204, 176);
+}
+
+/* styling the contact section */
+#contacts{
+    height: 80vh;
+    padding-top: 25vh;
+    border-bottom: 2px rgb(16, 204, 176) dotted;
+}
+
+.contactContainer{
+    display: flex;
+    gap: 2vh;
+    justify-content: center;
+}
+
+.iconsLists{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.iconLists-list{
+    height: 5vh;
+    width: 5vh;
+    padding-bottom: 1vh;
+
+}
+
+.contactListHead{
+    color:rgb(16, 204, 176);
+}
+#contacts h1{
+    font-size: 2.5rem;
+    color:rgb(16, 204, 176);
+    text-align:end;
+    margin-right: 5vh;
+    padding-top: 10vh;
+}
+
+
